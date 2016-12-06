@@ -49,31 +49,31 @@ angular.module('mikebamfordfoundation')
 			templateUrl : '/html/home.html',
 			controller : 'mainController'
 		})
-		.when('/foundation', {
+		.when('/About The Foundation', {
 			templateUrl : '/html/foundation.html',
 			controller : 'mainController'
 		})
-		.when('/ngu', {
+		.when('/Never Give Up', {
 			templateUrl : '/html/ngu.html',
 			controller : 'mainController'
 		})
-		.when('/ofn', {
+		.when('/Our Family Now', {
 			templateUrl : '/html/ofn.html',
 			controller : 'mainController'
 		})
-		.when('/wydg', {
+		.when('/Where Your Donations Go', {
 			templateUrl : '/html/wydg.html',
 			controller : 'mainController'
 		})
-		.when('/ms', {
+		.when("/Mike's Story" , {
 			templateUrl : '/html/ms.html',
 			controller : 'mainController'
 		})
-		.when('/atp', {
+		.when('/About The Pendants', {
 			templateUrl : '/html/atp.html',
 			controller : 'mainController'
 		})
-		.when('/gt', {
+		.when('/Golf Tournament', {
 			templateUrl : '/html/gt.html',
 			controller : 'mainController'
 		})
