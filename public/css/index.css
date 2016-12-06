@@ -89,6 +89,67 @@
 	height: 70px;
 	width: 70px;
 }
+.foundation-page {
+	font-family: 'Quicksand', sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color: #333333;
+}
+.text-center {
+	width: 100%;
+	text-align: center;
+	color: orange;
+	padding-top: 15px;
+}
+.text-centers {
+	width: 100%;
+	color: orange;
+	padding-top: 15px;
+}
+.title {
+	margin: 0px;
+	padding: 0px;
+}
+.titles {
+	color: orange;
+}
+.strike {
+	height: 1px;
+	width: 100%;
+	background-color: orange;
+}
+.fix {
+	color: white;
+	line-height: 25px;
+}
+.family-pic {
+	height: 300px;
+	width: 420px;
+}
+.mikestory {
+	height: 300px;
+	width: 300px;
+}
+.pendant-pics {
+	height: 300px;
+	width: 200px;
+}
+.mprints {
+	height: 250px;
+	width: 250px;
+}
+.redlands {
+	height: 300px;
+	width: 600px;
+}
+.highlight {
+	color: orange;
+}
+.filler {
+	height: 200px;
+	width: 100%;
+	background-color: #333333;
+}
 
 
 

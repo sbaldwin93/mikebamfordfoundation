@@ -19,7 +19,7 @@ angular.module('mikebamfordfoundation')
 		$scope.current = "Where your donations go";
 	};
 	$scope.mikesStory = function() {
-		$scope.current = "Mikes Story";
+		$scope.current = "Mike's Story";
 	};
 	$scope.aboutThePendants = function() {
 		$scope.current = "About The Pendants";
@@ -47,6 +47,34 @@ angular.module('mikebamfordfoundation')
 		})
 		.when('/carousel-example-generic', {
 			templateUrl : '/html/home.html',
+			controller : 'mainController'
+		})
+		.when('/foundation', {
+			templateUrl : '/html/foundation.html',
+			controller : 'mainController'
+		})
+		.when('/ngu', {
+			templateUrl : '/html/ngu.html',
+			controller : 'mainController'
+		})
+		.when('/ofn', {
+			templateUrl : '/html/ofn.html',
+			controller : 'mainController'
+		})
+		.when('/wydg', {
+			templateUrl : '/html/wydg.html',
+			controller : 'mainController'
+		})
+		.when('/ms', {
+			templateUrl : '/html/ms.html',
+			controller : 'mainController'
+		})
+		.when('/atp', {
+			templateUrl : '/html/atp.html',
+			controller : 'mainController'
+		})
+		.when('/gt', {
+			templateUrl : '/html/gt.html',
 			controller : 'mainController'
 		})
 				
