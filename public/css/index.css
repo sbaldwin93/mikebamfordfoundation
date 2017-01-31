@@ -2,32 +2,42 @@
 	width: 100%;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
-	background-color: black;
+	/*background-color: #333333;*/
 	color: white;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 .mbf {
-	margin-top: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	padding: 0px;
 	letter-spacing: 5px;
 	line-height: 30px;
 }
 #con-nav {
 	border-radius: 0px;
-	border-top-color: black;
-	border-left-color: black;
-	border-right-color: black;
-	border-bottom-color: black;
-	background-color: black;
+	border-top-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	border-bottom-color: #e6e6e6;
+	background-color: white;
 	margin: 0px;
 	padding: 0px;
 	color: white;
+}
+.navbar-toggle.collapsed {
+	background-color: white;
+	border-color: #00ccff;
+}
+.icon-bar {
+	background-color: #00e6e6;
+	color: #00e6e6;
 }
 .dropdown-menu {
 	background-color: white;
 }
 
 #current {
-	color: orange;
+	color: #00ccff;
 }
 .header-con {
 	width: 100%;
@@ -36,7 +46,7 @@
 	width: 100%;
 }
 .home {
-	background-color: #333333;
+	background-color: white;
 }
 .welcome-con {
 	width: 100%;
@@ -48,10 +58,20 @@
 	font-family: 'Quicksand', sans-serif;
 	margin: 0px;
 	padding: 0px;
-	color: orange;
+	color: #00ccff;
+}
+#test {
+	margin: 0px;
+	padding: 0px;
+}
+#tests {
+	height: 450px;
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
 }
 .welcome-description {
-	color: white;
+	/*color: white;*/
 	font-family: 'Quicksand', sans-serif;
 	margin-left: 15px;
 	margin-right: 15px;
@@ -61,10 +81,6 @@
 	background-color: white;
 	text-align: center;
 	padding-top: 8px;
-}
-#test {
-	margin: 0px;
-	padding: 0px;
 }
 .pic {
 	margin: auto;
@@ -76,18 +92,23 @@
 	width: 100%;
 	text-align: center;
 	height: 100vh;
-	background-color: black;
+	/*background-color: #333333;*/
 	color: white;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)
 }
 .follow-us {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Quicksand', sans-serif;
 }
-.facebook {
+#facebook {
 	margin-top: 15px;
-	height: 70px;
-	width: 70px;
+	border: 1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
 }
 .foundation-page {
 	font-family: 'Quicksand', sans-serif;
